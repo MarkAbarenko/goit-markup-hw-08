@@ -1,0 +1,97 @@
+.hero-title {
+  display: block;
+  max-width: 360px;
+height: 84px;
+  @media screen and (min-width:1200px){
+    max-width: 696px;
+  }
+  align-items: center;
+  & {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: var(--primary-bt-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 60px;
+    height: 120px
+  }
+}
+
+.feature-list .title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  @media screen and (min-width: 480px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+.section .section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.customers-title {
+  padding: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.portf-title {
+  margin-bottom: 4px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.team-title {
+  margin-bottom: 50px;
+  & {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+}
+
+.section-team .title {
+  margin-bottom: 10px;
+}
+
+.section-list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.portfolio-list .title {
+  color: var(--title-text-color);
+}

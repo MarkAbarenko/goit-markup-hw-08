@@ -1,0 +1,28 @@
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.foto-text-wrap {
+    position: relative;
+}
+
+.foto-text {
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-bt-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}

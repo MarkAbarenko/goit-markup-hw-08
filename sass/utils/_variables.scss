@@ -1,0 +1,20 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-bg-color: #2196f3;
+    --primary-bt-color: #ffffff;
+    --fone-bt-color: #2196f3;
+    --background-color: #2f303a;
+    --background-bt-clor: #f5f4fa;
+    --color-button-act: #188ce8;
+    --footer-adress: #ffffff99;
+    --border: #eeeeee;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bt-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
