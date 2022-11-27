@@ -2,18 +2,15 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-    gap: 30px;
-  > .feature-conteiner {
-        // @media screen and (min-width: 480px) {
-        //         flex-basis: calc(100% / 1 - 30px);
-        //     }
-  @media screen and (min-width: 768px) {
-    flex-basis: calc(100% / 2 - 30px);
+  gap: 30px;
+  & .feature-conteiner {
+    @media screen and (min-width: 768px) {
+      flex-basis: calc(100% / 2 - 30px);
+    }
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 3 * 30px) / 4);
+    }
   }
-          @media screen and (min-width: 1200px) {
-              flex-basis: calc(100% / 4 - 30px);
-          }
-        }
 }
 
 // .feature-list > .feature-conteiner {
@@ -23,8 +20,8 @@
 // .feature-conteiner:last-child {
 //   margin-right: 0px;
 // }
-.feature-conteiner{
-    width: 100%;
+.feature-conteiner {
+  width: 100%;
 }
 .feature-list .text {
   font-size: 14px;

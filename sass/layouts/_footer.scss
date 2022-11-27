@@ -9,6 +9,7 @@
 .footers {
   display: flex;
   align-items: baseline;
+  justify-content: center;
     @media screen and (min-width: 480px) {
         flex-direction: column;
       }
