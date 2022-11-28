@@ -179,6 +179,10 @@ img {
   }
 }
 
+.accent {
+  color: var(--accent-color);
+}
+
 .logo__accent {
   color: var(--accent-color);
 }
@@ -269,6 +273,16 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+@media screen and (min-width: 480px) {
+  .customers-title {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .customers-title {
+    margin-bottom: 30px;
+  }
+}
 
 .portf-title {
   margin-bottom: 4px;
@@ -281,6 +295,16 @@ img {
 
 .team-title {
   margin-bottom: 50px;
+}
+@media screen and (min-width: 480px) {
+  .team-title {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team-title {
+    margin-bottom: 30px;
+  }
 }
 .team-title {
   color: var(--title-text-color);
@@ -355,12 +379,20 @@ img {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-conteiner {
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-conteiner {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -396,36 +428,6 @@ img {
 
 .section-foto {
   padding-top: 0;
-}
-@media screen and (max-width: 480px) {
-  .section-foto {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-            clip-path: inset(50%);
-    margin: -1px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .section-foto {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-            clip-path: inset(50%);
-    margin: -1px;
-  }
 }
 
 .section-title > .foto-title {
@@ -817,7 +819,7 @@ textarea {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-img-2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-2x.jpg);
   }
 }
 
@@ -1358,7 +1360,7 @@ textarea {
   align-items: baseline;
   justify-content: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footers {
     flex-direction: column;
   }
@@ -1367,6 +1369,7 @@ textarea {
   .footers {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -1411,18 +1414,34 @@ textarea {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 320px) {
+  .adress-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .footer-join {
   display: flex;
   margin-left: 93px;
   flex-direction: column;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-join {
+    max-width: 480px;
     display: flex;
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-join {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
   }
 }
 
@@ -1467,7 +1486,7 @@ textarea {
 .footer-subscription {
   margin-left: 93px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-subscription {
     display: flex;
     flex-direction: column;
@@ -1493,11 +1512,11 @@ textarea {
   gap: 12px;
   align-items: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .subscription-form {
+    max-width: 480px;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -1515,17 +1534,17 @@ textarea {
   padding-left: 16px;
   color: var(--primary-bt-color);
 }
-.subscription-input:focus {
-  color: var(--primary-bt-color);
-  border-color: #2196f3;
-}
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .subscription-input {
-    width: 450px;
+    min-width: 290px;
     gap: 30px;
     margin-left: auto;
     margin-right: auto;
   }
+}
+.subscription-input:focus {
+  color: var(--primary-bt-color);
+  border-color: #2196f3;
 }
 
 .header__conntacs {

@@ -10,13 +10,16 @@
   display: flex;
   align-items: baseline;
   justify-content: center;
-    @media screen and (min-width: 480px) {
-        flex-direction: column;
-      }
-    
-      @media screen and (min-width: 768px) {
-       flex-direction: row;
-      flex-wrap: wrap; }
+  @media screen and (min-width: 320px) {
+    // max-width: 480px;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .adress-item {
@@ -25,11 +28,11 @@
   & .link {
     margin-bottom: 9px;
   }
-            @media screen and (min-width: 480px) {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            }
+  @media screen and (min-width: 480px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .adress-item:last-child {
@@ -60,20 +63,30 @@
     color: var(--accent-color);
   }
 }
-
-
-
+.adress-nav {
+  @media screen and (min-width: 320px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .footer-join {
   display: flex;
   margin-left: 93px;
   flex-direction: column;
-        @media screen and (min-width: 480px) {
-            display: flex;
-            margin-top: 60px;
-            margin-left: auto;
-            margin-right: auto;
-            align-items: center;
-          }
+  @media screen and (min-width: 320px) {
+    max-width: 480px;
+    display: flex;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
 }
 
 .jo-in {
@@ -95,7 +108,6 @@
   width: 44px;
   height: 44px;
 }
-
 
 .socs-icon {
   fill: var(--primary-bt-color);

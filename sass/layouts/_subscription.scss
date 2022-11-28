@@ -1,58 +1,64 @@
 .footer-subscription {
-    margin-left: 93px;
-        @media screen and (min-width: 480px) {
-                display: flex;
-                flex-direction: column;
-                margin-top: 60px;
-                margin-left: auto;
-                margin-right: auto;
-                align-items: center;
-            }
+  margin-left: 93px;
+  @media screen and (min-width: 320px) {
+    // max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
 }
 
 .subscription {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-bt-color);
-    margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-bt-color);
+  margin-bottom: 20px;
 }
 
 .subscription-form {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  @media screen and (min-width: 320px) {
+    max-width: 480px;
     display: flex;
-    gap: 12px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
-        @media screen and (min-width: 480px) {
-                display: flex;
-                flex-direction: column;
-                margin-top: 20px;
-                margin-left: auto;
-                margin-right: auto;
-                align-items: center;
-            }
+  }
 }
 
 .subscription-input {
-    width: 358px;
-    height: 50px;
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    outline: transparent;
-    padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: transparent;
+  padding-left: 16px;
+  color: var(--primary-bt-color);
+  @media screen and (min-width: 320px) {
+    min-width: 290px;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &:focus {
     color: var(--primary-bt-color);
-
-    &:focus {
-        color: var(--primary-bt-color);
-        border-color: #2196f3;
-    }
-        @media screen and (min-width: 480px){
-            width: 450px;
-            gap: 30px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    border-color: #2196f3;
+  }
+  // @media screen and (min-width: 320px){
+  //     // width: 480px;
+  //     gap: 30px;
+  //     margin-left: auto;
+  //     margin-right: auto;
+  // }
 }
