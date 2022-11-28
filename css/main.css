@@ -1147,6 +1147,11 @@ textarea {
     margin: -1px;
   }
 }
+@media screen and (min-width: 768px) {
+  .header__menu {
+    max-width: 768px;
+  }
+}
 
 .header__menu .menu__link {
   color: var(--title-text-color);
