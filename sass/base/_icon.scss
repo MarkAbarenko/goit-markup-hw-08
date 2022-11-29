@@ -5,8 +5,12 @@
   .item-mail:focus & {
     fill: currentColor;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     width: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 14px;
   }
 }
 
@@ -17,10 +21,14 @@
   &:focus .tell-icon {
     fill: currentColor;
   }
-   @media screen and (min-width: 768px) {
-       width: 10px;
-       height: 14px;
-   }
+  @media screen and (min-width: 768px) {
+    width: 10px;
+    height: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 10px;
+    height: 16px;
+  }
 }
 
 .writing-icon {

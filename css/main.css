@@ -100,6 +100,12 @@ img {
     width: 14px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .mail-icon {
+    width: 16px;
+    height: 14px;
+  }
+}
 
 .tell-icon {
   fill: currentColor;
@@ -112,6 +118,12 @@ img {
   .tell-icon {
     width: 10px;
     height: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .tell-icon {
+    width: 10px;
+    height: 16px;
   }
 }
 
