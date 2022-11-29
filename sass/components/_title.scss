@@ -17,9 +17,9 @@
     line-height: 42px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-      @media screen and (max-width: 356px) {
-          margin-bottom: 0px;
-        }
+    @media screen and (max-width: 356px) {
+      margin-bottom: 0px;
+    }
   }
   @media screen and (min-width: 1200px) {
     font-size: 44px;
@@ -65,12 +65,12 @@
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
     font-size: 28px;
-      line-height: 33px;
+    line-height: 33px;
   }
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
     font-size: 28px;
-      line-height: 33px;
+    line-height: 33px;
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
@@ -102,6 +102,18 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
+    @media screen and (min-width: 480px) {
+      font-size: 28px;
+      line-height: 1.17;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 28px;
+      line-height: 1.17;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 36px;
+      line-height: 1.16;
+    }
   }
 }
 
