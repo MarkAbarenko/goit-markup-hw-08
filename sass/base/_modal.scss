@@ -196,7 +196,9 @@ textarea {
     justify-content: space-around;
   }
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+    // max-width: 1200px;
+    font-size: 14px;
+      line-height: 24px;
   }
 }
 

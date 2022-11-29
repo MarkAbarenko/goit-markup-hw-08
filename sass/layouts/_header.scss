@@ -33,6 +33,10 @@
 .header__menu.list {
   display: flex;
   gap: 50px;
+  @media screen and (max-width: 767px){
+    display: none;
+  }
+ 
 }
 .header__menu {
   @media screen and (max-width: 480px) {
@@ -49,6 +53,7 @@
   }
  @media screen and (min-width: 768px) {
    max-width: 768px;
+  margin-right: 90px;
  }
 }
 .header__menu .menu__link {
@@ -102,30 +107,16 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  @media screen and (min-width: 481px) {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+display: none;
   }
 
   @media screen and (min-width: 1200px) {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    display: none;
   }
 
   &:focus,

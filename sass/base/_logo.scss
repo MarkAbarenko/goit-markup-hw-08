@@ -28,6 +28,14 @@
 }
 .footer-logo {
   margin-bottom: 20px;
+  @media screen and (min-width: 768px){
+    display: flex;
+    justify-content: center;
+  }
+    @media screen and (min-width: 1200px){
+      display: flex;
+      justify-content: center;
+    }
   & {
     color: var(--primary-bt-color);
     font-family: "Raleway", sans-serif;
