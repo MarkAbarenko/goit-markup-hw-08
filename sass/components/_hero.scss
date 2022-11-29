@@ -15,6 +15,12 @@
   margin: auto;
   width: 100%;
   padding: 118px 60px;
+  @media screen and (max-width: 526px){
+   padding-top: 118px;
+   padding-bottom: 118px;
+   padding-left: 0px;
+   padding-right: 0px;
+  }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {

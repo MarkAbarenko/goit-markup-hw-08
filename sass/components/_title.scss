@@ -2,6 +2,7 @@
   display: block;
   max-width: 360px;
   height: 84px;
+
   @media screen and (min-width: 1200px) {
     max-width: 696px;
   }
@@ -16,6 +17,9 @@
     line-height: 42px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+      @media screen and (max-width: 356px) {
+          margin-bottom: 0px;
+        }
   }
   @media screen and (min-width: 1200px) {
     font-size: 44px;
@@ -60,9 +64,13 @@
   color: var(--title-text-color);
   @media screen and (min-width: 480px) {
     margin-bottom: 30px;
+    font-size: 28px;
+      line-height: 33px;
   }
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
+    font-size: 28px;
+      line-height: 33px;
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;

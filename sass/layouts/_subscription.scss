@@ -9,7 +9,7 @@
     align-items: center;
   }
   @media screen and (min-width: 768px) {
-   text-align: start;
+    text-align: start;
   }
   @media screen and (min-width: 1200px) {
     margin: 0px;
@@ -38,12 +38,12 @@
     margin-right: auto;
     align-items: center;
   }
-    @media screen and (min-width: 768px){
-      flex-direction: column
-    }
-        @media screen and (min-width: 1200px){
-          flex-direction: row;
-        }
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 
 .subscription-input {
@@ -68,6 +68,9 @@
   }
   @media screen and (min-width: 768px) {
     width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
   }
   &:focus {
     color: var(--primary-bt-color);

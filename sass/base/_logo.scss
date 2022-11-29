@@ -34,7 +34,7 @@
   }
     @media screen and (min-width: 1200px){
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
     }
   & {
     color: var(--primary-bt-color);
